@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testclasses>
+  <nbmerchandisestorefront>
+    <testclass>de.hybris.nbmerchandise.storefront.controllers.cms.ProductCarouselComponentControllerTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.controllers.pages.SearchPageControllerUnitTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.controllers.cms.PurchasedCategorySuggestionComponentControllerTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.filters.CustomerLocationRestorationFilterTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.filters.AnonymousCheckoutFilterTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.security.impl.CartUsurpProtectionUnitTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.security.impl.WebHttpSessionRequestCacheUnitTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.interceptors.CSRFHandlerInterceptorTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.security.cookie.EnhancedCookieGeneratorTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.controllers.cms.MiniCartComponentControllerTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.controllers.cms.ProductFeatureComponentControllerTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.controllers.cms.CartSuggestionComponentControllerTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.controllers.pages.CartPageControllerTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.web.view.UiExperienceViewResolverTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.filters.AcceleratorAddOnFilterTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.interceptors.i18n.SetLanguageBeforeControllerHandlerTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.controllers.cms.DefaultCMSComponentControllerTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.controllers.cms.CategoryFeatureComponentControllerTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.controllers.cms.NavigationBarComponentControllerTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.filters.CommonResourcesAddOnFilterTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.filters.AbstractAddOnFilterTest</testclass>
+    <testclass>de.hybris.nbmerchandise.storefront.controllers.cms.ProductReferencesComponentControllerTest</testclass>
+  </nbmerchandisestorefront>
+</testclasses>

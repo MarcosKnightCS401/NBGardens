@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testclasses>
+  <nbmerchandisecockpits>
+    <testclass>de.hybris.nbmerchandise.cockpits.cmscockpit.sitewizard.CMSSiteUtilsTest</testclass>
+    <testclass>de.hybris.nbmerchandise.cockpits.jalo.YAcceleratorcockpitsTest</testclass>
+  </nbmerchandisecockpits>
+</testclasses>

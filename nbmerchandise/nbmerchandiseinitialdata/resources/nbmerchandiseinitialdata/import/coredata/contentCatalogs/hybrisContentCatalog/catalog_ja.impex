@@ -1,0 +1,10 @@
+#
+# Import the Content Catalog
+#
+
+# Language
+$contentCatalog=hybrisContentCatalog
+$lang=ja
+
+# Create Content Catalog
+UPDATE ContentCatalog;id[unique=true];name[lang=$lang]

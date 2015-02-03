@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testclasses>
+  <nbmerchandisecore>
+    <testclass>de.hybris.nbmerchandise.core.checkout.flow.impl.PickUpInStoreCheckoutFlowStrategyTest</testclass>
+    <testclass>de.hybris.nbmerchandise.core.checkout.flow.impl.SiteCheckoutFlowStrategyTest</testclass>
+    <testclass>de.hybris.nbmerchandise.core.suggestion.impl.DefaultSimpleSuggestionServiceTest</testclass>
+    <testclass>de.hybris.nbmerchandise.core.checkout.flow.impl.NewCustomerCheckoutFlowStrategyTest</testclass>
+    <testclass>de.hybris.nbmerchandise.core.batch.task.BatchIntegrationTest</testclass>
+    <testclass>de.hybris.nbmerchandise.core.suggestion.DefaultSimpleSuggestionServiceIntegrationTest</testclass>
+    <testclass>de.hybris.nbmerchandise.core.checkout.flow.impl.FixedCheckoutFlowStrategyTest</testclass>
+  </nbmerchandisecore>
+</testclasses>

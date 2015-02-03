@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testclasses>
+  <nbmerchandisefacades>
+    <testclass>de.hybris.nbmerchandise.facades.flow.impl.DefaultCheckoutFlowFacadeTest</testclass>
+    <testclass>de.hybris.nbmerchandise.facades.suggestion.impl.DefaultSimpleSuggestionFacadeTest</testclass>
+    <testclass>de.hybris.nbmerchandise.facades.flow.impl.DefaultMobileCheckoutFlowFacadeTest</testclass>
+    <testclass>de.hybris.nbmerchandise.facades.suggestion.DefaultSimpleSuggestionFacadeIntegrationTest</testclass>
+  </nbmerchandisefacades>
+</testclasses>
