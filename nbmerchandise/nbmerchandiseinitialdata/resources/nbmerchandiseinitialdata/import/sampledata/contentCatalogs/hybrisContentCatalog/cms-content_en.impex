@@ -14,8 +14,8 @@ UPDATE SimpleBannerComponent;$contentCV[unique=true];uid[unique=true];$picture[l
 # CMS Link Components
 UPDATE CMSLinkComponent;$contentCV[unique=true];uid[unique=true];linkName[lang=$lang]
 ;;HomepageNavLink;"Home"
-;;StuffCategoryLink;"Tools"
-;;ClothesCategoryLink;"Plants"
+;;ToolsCategoryLink;"Tools"
+;;PlantsCategoryLink;"Plants"
 ;;AboutAcceleratorLink;"About Commerce Accelerator"
 ;;AboutHybrisLink;"About hybris"
 ;;AccountAddressBookLink;"Address Book"
@@ -65,15 +65,15 @@ UPDATE ProductReferencesComponent;$contentCV[unique=true];uid[unique=true];title
    
 # Category Pages
 UPDATE CategoryPage;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
-;;Stuff;Stuff
-;;Clothes;Clothes
+;;Tools;Tools
+;;Plants;Plants
    
 # CMS Navigation Nodes
 INSERT_UPDATE CMSNavigationNode;$contentCV[unique=true];uid[unique=true];title[lang=$lang]
 ;;HybrisSiteRootNode;HybrisSiteRoot
 ;;HybrisNavNode;Hybris Site
-;;ClothesNavNode;Clothes
-;;StuffNavNode;Stuff
+;;PlantsNavNode;Plants
+;;ToolsNavNode;Tools
 ;;AcceleratorNavNode;"Accelerator"
 ;;AccessoriesNavNode;"Accessories"
 ;;AccessoryBrandLinksNavNode;"Accessories"
