@@ -1,2 +1,121 @@
 # ImpEx for Importing Product Media into Merchandise store 
 # Macros / Replacement Parameter definitions 
+$productCatalog=hybrisProductCatalog 
+$storeName=hybris 
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Staged'])[unique=true,default=$productCatalog] 
+$media=@media[translator=de.hybris.platform.impex.jalo.media.MediaDataTranslator] 
+$thumbnail=thumbnail(code, $catalogVersion) 
+$picture=picture(code, $catalogVersion) 
+$thumbnails=thumbnails(code, $catalogVersion) 
+$detail=detail(code, $catalogVersion) 
+$normal=normal(code, $catalogVersion) 
+$others=others(code, $catalogVersion) 
+$data_sheet=data_sheet(code, $catalogVersion) 
+$medias=medias(code, $catalogVersion) 
+$galleryImages=galleryImages(qualifier, $catalogVersion) 
+$siteResource=jar:de.hybris.nbmerchandise.initialdata.setup.InitialDataSystemSetup&/nbmerchandiseinitialdata/import/sampledata/productCatalogs/$productCatalog/images 
+INSERT_UPDATE MediaFolder;qualifier[unique=true];path[unique=true] 
+;images;images 
+# Create Media 
+INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default='image/jpg'];$catalogVersion;folder(qualifier) 
+;1200Wx1200H;/1200Wx1200H/31PkezjLQML._SX300_.jpg;$siteResource/1200Wx1200H/31PkezjLQML._SX300_.jpg;;;images 
+;1200Wx1200H;/1200Wx1200H/cultivator10a.jpg;$siteResource/1200Wx1200H/cultivator10a.jpg;;;images 
+;1200Wx1200H;/1200Wx1200H/p-4210-draw-hoe.jpg;$siteResource/1200Wx1200H/p-4210-draw-hoe.jpg;;;images 
+;1200Wx1200H;/1200Wx1200H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;$siteResource/1200Wx1200H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;;;images 
+;1200Wx1200H;/1200Wx1200H/p-5239-5-prong-garden-fork.jpg;$siteResource/1200Wx1200H/p-5239-5-prong-garden-fork.jpg;;;images 
+;1200Wx1200H;/1200Wx1200H/Bald_Cypress_Branch_2872px.jpg;$siteResource/515Wx515H/Bald_Cypress_Branch_2872px.jpg;;;images 
+;1200Wx1200H;/1200Wx1200H/uses-of-garden-rake-05.jpg;$siteResource/1200Wx1200H/uses-of-garden-rake-05.jpg;;;images 
+;1200Wx1200H;/1200Wx1200H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;$siteResource/1200Wx1200H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;;;images 
+;1200Wx1200H;/1200Wx1200H/Bupleurum_rotundifolium3_eF.jpg;$siteResource/515Wx515H/Bupleurum_rotundifolium3_eF.jpg;;;images 
+;1200Wx1200H;/1200Wx1200H/Delphinium_cultorum_cv.03.jpg;$siteResource/515Wx515H/Delphinium_cultorum_cv.03.jpg;;;images 
+;1200Wx1200H;/1200Wx1200H/Alstroemeria_aurantiaca.jpg;$siteResource/1200Wx1200H/Alstroemeria_aurantiaca.jpg;;;images 
+;515Wx515H;/515Wx515H/31PkezjLQML._SX300_.jpg;$siteResource/515Wx515H/31PkezjLQML._SX300_.jpg;;;images 
+;515Wx515H;/515Wx515H/cultivator10a.jpg;$siteResource/515Wx515H/cultivator10a.jpg;;;images 
+;515Wx515H;/515Wx515H/p-4210-draw-hoe.jpg;$siteResource/515Wx515H/p-4210-draw-hoe.jpg;;;images 
+;515Wx515H;/515Wx515H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;$siteResource/515Wx515H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;;;images 
+;515Wx515H;/515Wx515H/p-5239-5-prong-garden-fork.jpg;$siteResource/515Wx515H/p-5239-5-prong-garden-fork.jpg;;;images 
+;515Wx515H;/515Wx515H/Bald_Cypress_Branch_2872px.jpg;$siteResource/515Wx515H/Bald_Cypress_Branch_2872px.jpg;;;images 
+;515Wx515H;/515Wx515H/uses-of-garden-rake-05.jpg;$siteResource/515Wx515H/uses-of-garden-rake-05.jpg;;;images 
+;515Wx515H;/515Wx515H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;$siteResource/515Wx515H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;;;images 
+;515Wx515H;/515Wx515H/Bupleurum_rotundifolium3_eF.jpg;$siteResource/515Wx515H/Bupleurum_rotundifolium3_eF.jpg;;;images 
+;515Wx515H;/515Wx515H/Delphinium_cultorum_cv.03.jpg;$siteResource/515Wx515H/Delphinium_cultorum_cv.03.jpg;;;images 
+;515Wx515H;/515Wx515H/Alstroemeria_aurantiaca.jpg;$siteResource/515Wx515H/Alstroemeria_aurantiaca.jpg;;;images 
+;300Wx300H;/300Wx300H/31PkezjLQML._SX300_.jpg;$siteResource/300Wx300H/31PkezjLQML._SX300_.jpg;;;images 
+;300Wx300H;/300Wx300H/cultivator10a.jpg;$siteResource/300Wx300H/cultivator10a.jpg;;;images 
+;300Wx300H;/300Wx300H/p-4210-draw-hoe.jpg;$siteResource/300Wx300H/p-4210-draw-hoe.jpg;;;images 
+;300Wx300H;/300Wx300H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;$siteResource/300Wx300H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;;;images 
+;300Wx300H;/300Wx300H/p-5239-5-prong-garden-fork.jpg;$siteResource/300Wx300H/p-5239-5-prong-garden-fork.jpg;;;images 
+;300Wx300H;/300Wx300H/Bald_Cypress_Branch_2872px.jpg;$siteResource/300Wx300H/Bald_Cypress_Branch_2872px.jpg;;;images 
+;300Wx300H;/300Wx300H/uses-of-garden-rake-05.jpg;$siteResource/300Wx300H/uses-of-garden-rake-05.jpg;;;images 
+;300Wx300H;/300Wx300H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;$siteResource/300Wx300H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;;;images 
+;300Wx300H;/300Wx300H/Bupleurum_rotundifolium3_eF.jpg;$siteResource/300Wx300H/Bupleurum_rotundifolium3_eF.jpg;;;images 
+;300Wx300H;/300Wx300H/Delphinium_cultorum_cv.03.jpg;$siteResource/300Wx300H/Delphinium_cultorum_cv.03.jpg;;;images 
+;300Wx300H;/300Wx300H/Alstroemeria_aurantiaca.jpg;$siteResource/300Wx300H/Alstroemeria_aurantiaca.jpg;;;images 
+;96Wx96H;/96Wx96H/31PkezjLQML._SX300_.jpg;$siteResource/96Wx96H/31PkezjLQML._SX300_.jpg;;;images 
+;96Wx96H;/96Wx96H/cultivator10a.jpg;$siteResource/96Wx96H/cultivator10a.jpg;;;images 
+;96Wx96H;/96Wx96H/p-4210-draw-hoe.jpg;$siteResource/96Wx96H/p-4210-draw-hoe.jpg;;;images 
+;96Wx96H;/96Wx96H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;$siteResource/96Wx96H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;;;images 
+;96Wx96H;/96Wx96H/p-5239-5-prong-garden-fork.jpg;$siteResource/96Wx96H/p-5239-5-prong-garden-fork.jpg;;;images 
+;96Wx96H;/96Wx96H/Bald_Cypress_Branch_2872px.jpg;$siteResource/96Wx96H/Bald_Cypress_Branch_2872px.jpg;;;images 
+;96Wx96H;/96Wx96H/uses-of-garden-rake-05.jpg;$siteResource/96Wx96H/uses-of-garden-rake-05.jpg;;;images 
+;96Wx96H;/96Wx96H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;$siteResource/96Wx96H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;;;images 
+;96Wx96H;/96Wx96H/Bupleurum_rotundifolium3_eF.jpg;$siteResource/96Wx96H/Bupleurum_rotundifolium3_eF.jpg;;;images 
+;96Wx96H;/96Wx96H/Delphinium_cultorum_cv.03.jpg;$siteResource/96Wx96H/Delphinium_cultorum_cv.03.jpg;;;images 
+;96Wx96H;/96Wx96H/Alstroemeria_aurantiaca.jpg;$siteResource/96Wx96H/Alstroemeria_aurantiaca.jpg;;;images 
+;65Wx65H;/65Wx65H/31PkezjLQML._SX300_.jpg;$siteResource/65Wx65H/31PkezjLQML._SX300_.jpg;;;images 
+;65Wx65H;/65Wx65H/cultivator10a.jpg;$siteResource/65Wx65H/cultivator10a.jpg;;;images 
+;65Wx65H;/65Wx65H/p-4210-draw-hoe.jpg;$siteResource/65Wx65H/p-4210-draw-hoe.jpg;;;images 
+;65Wx65H;/65Wx65H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;$siteResource/65Wx65H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;;;images 
+;65Wx65H;/65Wx65H/p-5239-5-prong-garden-fork.jpg;$siteResource/65Wx65H/p-5239-5-prong-garden-fork.jpg;;;images 
+;65Wx65H;/65Wx65H/Bald_Cypress_Branch_2872px.jpg;$siteResource/65Wx65H/Bald_Cypress_Branch_2872px.jpg;;;images 
+;65Wx65H;/65Wx65H/uses-of-garden-rake-05.jpg;$siteResource/65Wx65H/uses-of-garden-rake-05.jpg;;;images 
+;65Wx65H;/65Wx65H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;$siteResource/65Wx65H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;;;images 
+;65Wx65H;/65Wx65H/Bupleurum_rotundifolium3_eF.jpg;$siteResource/65Wx65H/Bupleurum_rotundifolium3_eF.jpg;;;images 
+;65Wx65H;/65Wx65H/Delphinium_cultorum_cv.03.jpg;$siteResource/65Wx65H/Delphinium_cultorum_cv.03.jpg;;;images 
+;65Wx65H;/65Wx65H/Alstroemeria_aurantiaca.jpg;$siteResource/65Wx65H/Alstroemeria_aurantiaca.jpg;;;images 
+;30Wx30H;/30Wx30H/31PkezjLQML._SX300_.jpg;$siteResource/30Wx30H/31PkezjLQML._SX300_.jpg;;;images 
+;30Wx30H;/30Wx30H/cultivator10a.jpg;$siteResource/30Wx30H/cultivator10a.jpg;;;images 
+;30Wx30H;/30Wx30H/p-4210-draw-hoe.jpg;$siteResource/30Wx30H/p-4210-draw-hoe.jpg;;;images 
+;30Wx30H;/30Wx30H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;$siteResource/30Wx30H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;;;images 
+;30Wx30H;/30Wx30H/p-5239-5-prong-garden-fork.jpg;$siteResource/30Wx30H/p-5239-5-prong-garden-fork.jpg;;;images 
+;30Wx30H;/30Wx30H/Bald_Cypress_Branch_2872px.jpg;$siteResource/30Wx30H/Bald_Cypress_Branch_2872px.jpg;;;images 
+;30Wx30H;/30Wx30H/uses-of-garden-rake-05.jpg;$siteResource/30Wx30H/uses-of-garden-rake-05.jpg;;;images 
+;30Wx30H;/30Wx30H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;$siteResource/30Wx30H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;;;images 
+;30Wx30H;/30Wx30H/Bupleurum_rotundifolium3_eF.jpg;$siteResource/30Wx30H/Bupleurum_rotundifolium3_eF.jpg;;;images 
+;30Wx30H;/30Wx30H/Delphinium_cultorum_cv.03.jpg;$siteResource/30Wx30H/Delphinium_cultorum_cv.03.jpg;;;images 
+;30Wx30H;/30Wx30H/Alstroemeria_aurantiaca.jpg;$siteResource/30Wx30H/Alstroemeria_aurantiaca.jpg;;;images 
+# Create Media Containers 
+INSERT_UPDATE MediaContainer;qualifier[unique=true];$medias;$catalogVersion 
+;0001_1.jpg;/1200Wx1200H/p-5239-5-prong-garden-fork.jpg,/515Wx515H/p-5239-5-prong-garden-fork.jpg,/300Wx300H/p-5239-5-prong-garden-fork.jpg,/96Wx96H/p-5239-5-prong-garden-fork.jpg,/65Wx65H/p-5239-5-prong-garden-fork.jpg,/30Wx30H/p-5239-5-prong-garden-fork.jpg 
+;0001_2.jpg;/1200Wx1200H/Bald_Cypress_Branch_2872px.jpg,/515Wx515H/Bald_Cypress_Branch_2872px.jpg,/300Wx300H/Bald_Cypress_Branch_2872px.jpg,/96Wx96H/Bald_Cypress_Branch_2872px.jpg,/65Wx65H/Bald_Cypress_Branch_2872px.jpg,/30Wx30H/Bald_Cypress_Branch_2872px.jpg 
+;0002_1.jpg;/1200Wx1200H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg,/515Wx515H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg,/300Wx300H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg,/96Wx96H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg,/65Wx65H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg,/30Wx30H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg 
+;0003_1.jpg;/1200Wx1200H/p-4210-draw-hoe.jpg,/515Wx515H/p-4210-draw-hoe.jpg,/300Wx300H/p-4210-draw-hoe.jpg,/96Wx96H/p-4210-draw-hoe.jpg,/65Wx65H/p-4210-draw-hoe.jpg,/30Wx30H/p-4210-draw-hoe.jpg 
+;0005_1.jpg;/1200Wx1200H/cultivator10a.jpg,/515Wx515H/cultivator10a.jpg,/300Wx300H/cultivator10a.jpg,/96Wx96H/cultivator10a.jpg,/65Wx65H/cultivator10a.jpg,/30Wx30H/cultivator10a.jpg 
+;0006_1.jpg;/1200Wx1200H/31PkezjLQML._SX300_.jpg,/515Wx515H/31PkezjLQML._SX300_.jpg,/300Wx300H/31PkezjLQML._SX300_.jpg,/96Wx96H/31PkezjLQML._SX300_.jpg,/65Wx65H/31PkezjLQML._SX300_.jpg,/30Wx30H/31PkezjLQML._SX300_.jpg 
+;0007_1.jpg;/1200Wx1200H/uses-of-garden-rake-05.jpg,/515Wx515H/uses-of-garden-rake-05.jpg,/300Wx300H/uses-of-garden-rake-05.jpg,/96Wx96H/uses-of-garden-rake-05.jpg,/65Wx65H/uses-of-garden-rake-05.jpg,/30Wx30H/uses-of-garden-rake-05.jpg 
+;0100_1.jpg;/1200Wx1200H/Alstroemeria_aurantiaca.jpg,/515Wx515H/Alstroemeria_aurantiaca.jpg,/300Wx300H/Alstroemeria_aurantiaca.jpg,/96Wx96H/Alstroemeria_aurantiaca.jpg,/65Wx65H/Alstroemeria_aurantiaca.jpg,/30Wx30H/Alstroemeria_aurantiaca.jpg 
+;0110_1.jpg;/1200Wx1200H/Delphinium_cultorum_cv.03.jpg,/515Wx515H/Delphinium_cultorum_cv.03.jpg,/300Wx300H/Delphinium_cultorum_cv.03.jpg,/96Wx96H/Delphinium_cultorum_cv.03.jpg,/65Wx65H/Delphinium_cultorum_cv.03.jpg,/30Wx30H/Delphinium_cultorum_cv.03.jpg 
+;0200_1.jpg;/1200Wx1200H/Bupleurum_rotundifolium3_eF.jpg,/515Wx515H/Bupleurum_rotundifolium3_eF.jpg,/300Wx300H/Bupleurum_rotundifolium3_eF.jpg,/96Wx96H/Bupleurum_rotundifolium3_eF.jpg,/65Wx65H/Bupleurum_rotundifolium3_eF.jpg,/30Wx30H/Bupleurum_rotundifolium3_eF.jpg 
+;0210_1.jpg;/1200Wx1200H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg,/515Wx515H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg,/300Wx300H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg,/96Wx96H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg,/65Wx65H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg,/30Wx30H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg 
+# Update Products with Media and Media Containers 
+INSERT_UPDATE Product;code[unique=true];$catalogVersion;$galleryImages;$picture;$thumbnail 
+;0001;;0001_1.jpg,0001_2.jpg;/300Wx300H/p-5239-5-prong-garden-fork.jpg;/96Wx96H/p-5239-5-prong-garden-fork.jpg 
+;0002;;0002_1.jpg;/300Wx300H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg;/96Wx96H/p-5180-garden_spade_with_28_yd_handle_solid_steel_forged_bulldog_tools_australia_1_1.jpg 
+;0003;;0003_1.jpg;/300Wx300H/p-4210-draw-hoe.jpg;/96Wx96H/p-4210-draw-hoe.jpg 
+;0004;;0003_1.jpg;/300Wx300H/p-4210-draw-hoe.jpg;/96Wx96H/p-4210-draw-hoe.jpg 
+;0005;;0005_1.jpg;/300Wx300H/cultivator10a.jpg;/96Wx96H/cultivator10a.jpg 
+;0006;;0006_1.jpg;/300Wx300H/31PkezjLQML._SX300_.jpg;/96Wx96H/31PkezjLQML._SX300_.jpg 
+;0007;;0007_1.jpg;/300Wx300H/uses-of-garden-rake-05.jpg;/96Wx96H/uses-of-garden-rake-05.jpg 
+;0100;;0100_1.jpg;/300Wx300H/Alstroemeria_aurantiaca.jpg;/96Wx96H/Alstroemeria_aurantiaca.jpg 
+;0101;;0100_1.jpg;/300Wx300H/Alstroemeria_aurantiaca.jpg;/96Wx96H/Alstroemeria_aurantiaca.jpg 
+;0102;;0100_1.jpg;/300Wx300H/Alstroemeria_aurantiaca.jpg;/96Wx96H/Alstroemeria_aurantiaca.jpg 
+;0110;;0110_1.jpg;/300Wx300H/Delphinium_cultorum_cv.03.jpg;/96Wx96H/Delphinium_cultorum_cv.03.jpg 
+;0111;;0110_1.jpg;/300Wx300H/Delphinium_cultorum_cv.03.jpg;/96Wx96H/Delphinium_cultorum_cv.03.jpg 
+;0112;;0110_1.jpg;/300Wx300H/Delphinium_cultorum_cv.03.jpg;/96Wx96H/Delphinium_cultorum_cv.03.jpg 
+;0200;;0200_1.jpg;/300Wx300H/Bupleurum_rotundifolium3_eF.jpg;/96Wx96H/Bupleurum_rotundifolium3_eF.jpg 
+;0201;;0200_1.jpg;/300Wx300H/Bupleurum_rotundifolium3_eF.jpg;/96Wx96H/Bupleurum_rotundifolium3_eF.jpg 
+;0202;;0200_1.jpg;/300Wx300H/Bupleurum_rotundifolium3_eF.jpg;/96Wx96H/Bupleurum_rotundifolium3_eF.jpg 
+;0210;;0210_1.jpg;/300Wx300H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;/96Wx96H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg 
+;0211;;0210_1.jpg;/300Wx300H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;/96Wx96H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg 
+;0212;;0210_1.jpg;/300Wx300H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg;/96Wx96H/1024px-Hydrangea_quercifolia_BhamBotGdn.jpg 
+
