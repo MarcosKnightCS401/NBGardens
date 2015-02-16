@@ -29,6 +29,13 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;1200Wx1200H;/1200Wx1200H/bupleurum.jpg;$siteResource/515Wx515H/bupleurum.jpg;;;images 
 ;1200Wx1200H;/1200Wx1200H/delphinium.jpg;$siteResource/515Wx515H/delphinium.jpg;;;images 
 ;1200Wx1200H;/1200Wx1200H/alstroemeria.jpg;$siteResource/1200Wx1200H/alstroemeria.jpg;;;images 
+;1200Wx1200H;/1200Wx1200H/aspen.jpg;$siteResource/1200Wx1200H/aspen.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/carnation.jpg;$siteResource/1200Wx1200H/carnation.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/cedar.jpg;$siteResource/1200Wx1200H/cedar.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/dogwood.jpg;$siteResource/1200Wx1200H/dogwood.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/elm.jpg;$siteResource/1200Wx1200H/elm.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/fig.jpg;$siteResource/1200Wx1200H/fig.jpg;;;images
+;1200Wx1200H;/1200Wx1200H/gerbera.jpg;$siteResource/1200Wx1200H/gerbera.jpg;;;images
 ;515Wx515H;/515Wx515H/dutchhoe.jpg;$siteResource/515Wx515H/dutchhoe.jpg;;;images 
 ;515Wx515H;/515Wx515H/cultivator.jpg;$siteResource/515Wx515H/cultivator.jpg;;;images 
 ;515Wx515H;/515Wx515H/drawhoe.jpg;$siteResource/515Wx515H/drawhoe.jpg;;;images 
@@ -39,7 +46,14 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;515Wx515H;/515Wx515H/hydrangea.jpg;$siteResource/515Wx515H/hydrangea.jpg;;;images 
 ;515Wx515H;/515Wx515H/bupleurum.jpg;$siteResource/515Wx515H/bupleurum.jpg;;;images 
 ;515Wx515H;/515Wx515H/delphinium.jpg;$siteResource/515Wx515H/delphinium.jpg;;;images 
-;515Wx515H;/515Wx515H/alstroemeria.jpg;$siteResource/515Wx515H/alstroemeria.jpg;;;images 
+;515Wx515H;/515Wx515H/alstroemeria.jpg;$siteResource/515Wx515H/alstroemeria.jpg;;;images
+;515Wx515H;/515Wx515H/aspen.jpg;$siteResource/515Wx515H/aspen.jpg;;;images
+;515Wx515H;/515Wx515H/carnation.jpg;$siteResource/515Wx515H/carnation.jpg;;;images
+;515Wx515H;/515Wx515H/cedar.jpg;$siteResource/515Wx515H/cedar.jpg;;;images
+;515Wx515H;/515Wx515H/dogwood.jpg;$siteResource/515Wx515H/dogwood.jpg;;;images
+;515Wx515H;/515Wx515H/elm.jpg;$siteResource/515Wx515H/elm.jpg;;;images
+;515Wx515H;/515Wx515H/fig.jpg;$siteResource/515Wx515H/fig.jpg;;;images
+;515Wx515H;/515Wx515H/gerbera.jpg;$siteResource/515Wx515H/gerbera.jpg;;;images 
 ;300Wx300H;/300Wx300H/dutchhoe.jpg;$siteResource/300Wx300H/dutchhoe.jpg;;;images 
 ;300Wx300H;/300Wx300H/cultivator.jpg;$siteResource/300Wx300H/cultivator.jpg;;;images 
 ;300Wx300H;/300Wx300H/drawhoe.jpg;$siteResource/300Wx300H/drawhoe.jpg;;;images 
@@ -51,6 +65,13 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;300Wx300H;/300Wx300H/bupleurum.jpg;$siteResource/300Wx300H/bupleurum.jpg;;;images 
 ;300Wx300H;/300Wx300H/delphinium.jpg;$siteResource/300Wx300H/delphinium.jpg;;;images 
 ;300Wx300H;/300Wx300H/alstroemeria.jpg;$siteResource/300Wx300H/alstroemeria.jpg;;;images 
+;300Wx300H;/300Wx300H/aspen.jpg;$siteResource/300Wx300H/aspen.jpg;;;images
+;300Wx300H;/300Wx300H/carnation.jpg;$siteResource/300Wx300H/carnation.jpg;;;images
+;300Wx300H;/300Wx300H/cedar.jpg;$siteResource/300Wx300H/cedar.jpg;;;images
+;300Wx300H;/300Wx300H/dogwood.jpg;$siteResource/300Wx300H/dogwood.jpg;;;images
+;300Wx300H;/300Wx300H/elm.jpg;$siteResource/300Wx300H/elm.jpg;;;images
+;300Wx300H;/300Wx300H/fig.jpg;$siteResource/300Wx300H/fig.jpg;;;images
+;300Wx300H;/300Wx300H/gerbera.jpg;$siteResource/300Wx300H/gerbera.jpg;;;images
 ;96Wx96H;/96Wx96H/dutchhoe.jpg;$siteResource/96Wx96H/dutchhoe.jpg;;;images 
 ;96Wx96H;/96Wx96H/cultivator.jpg;$siteResource/96Wx96H/cultivator.jpg;;;images 
 ;96Wx96H;/96Wx96H/drawhoe.jpg;$siteResource/96Wx96H/drawhoe.jpg;;;images 
@@ -62,6 +83,13 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;96Wx96H;/96Wx96H/bupleurum.jpg;$siteResource/96Wx96H/bupleurum.jpg;;;images 
 ;96Wx96H;/96Wx96H/delphinium.jpg;$siteResource/96Wx96H/delphinium.jpg;;;images 
 ;96Wx96H;/96Wx96H/alstroemeria.jpg;$siteResource/96Wx96H/alstroemeria.jpg;;;images 
+;96Wx96H;/96Wx96H/aspen.jpg;$siteResource/96Wx96H/aspen.jpg;;;images
+;96Wx96H;/96Wx96H/carnation.jpg;$siteResource/96Wx96H/carnation.jpg;;;images
+;96Wx96H;/96Wx96H/cedar.jpg;$siteResource/96Wx96H/cedar.jpg;;;images
+;96Wx96H;/96Wx96H/dogwood.jpg;$siteResource/96Wx96H/dogwood.jpg;;;images
+;96Wx96H;/96Wx96H/elm.jpg;$siteResource/96Wx96H/elm.jpg;;;images
+;96Wx96H;/96Wx96H/fig.jpg;$siteResource/96Wx96H/fig.jpg;;;images
+;96Wx96H;/96Wx96H/gerbera.jpg;$siteResource/96Wx96H/gerbera.jpg;;;images
 ;65Wx65H;/65Wx65H/dutchhoe.jpg;$siteResource/65Wx65H/dutchhoe.jpg;;;images 
 ;65Wx65H;/65Wx65H/cultivator.jpg;$siteResource/65Wx65H/cultivator.jpg;;;images 
 ;65Wx65H;/65Wx65H/drawhoe.jpg;$siteResource/65Wx65H/drawhoe.jpg;;;images 
@@ -73,6 +101,13 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;65Wx65H;/65Wx65H/bupleurum.jpg;$siteResource/65Wx65H/bupleurum.jpg;;;images 
 ;65Wx65H;/65Wx65H/delphinium.jpg;$siteResource/65Wx65H/delphinium.jpg;;;images 
 ;65Wx65H;/65Wx65H/alstroemeria.jpg;$siteResource/65Wx65H/alstroemeria.jpg;;;images 
+;65Wx65H;/65Wx65H/aspen.jpg;$siteResource/65Wx65H/aspen.jpg;;;images
+;65Wx65H;/65Wx65H/carnation.jpg;$siteResource/65Wx65H/carnation.jpg;;;images
+;65Wx65H;/65Wx65H/cedar.jpg;$siteResource/65Wx65H/cedar.jpg;;;images
+;65Wx65H;/65Wx65H/dogwood.jpg;$siteResource/65Wx65H/dogwood.jpg;;;images
+;65Wx65H;/65Wx65H/elm.jpg;$siteResource/65Wx65H/elm.jpg;;;images
+;65Wx65H;/65Wx65H/fig.jpg;$siteResource/65Wx65H/fig.jpg;;;images
+;65Wx65H;/65Wx65H/gerbera.jpg;$siteResource/65Wx65H/gerbera.jpg;;;images
 ;30Wx30H;/30Wx30H/dutchhoe.jpg;$siteResource/30Wx30H/dutchhoe.jpg;;;images 
 ;30Wx30H;/30Wx30H/cultivator.jpg;$siteResource/30Wx30H/cultivator.jpg;;;images 
 ;30Wx30H;/30Wx30H/drawhoe.jpg;$siteResource/30Wx30H/drawhoe.jpg;;;images 
@@ -84,10 +119,19 @@ INSERT_UPDATE Media;mediaFormat(qualifier);code[unique=true];$media;mime[default
 ;30Wx30H;/30Wx30H/bupleurum.jpg;$siteResource/30Wx30H/bupleurum.jpg;;;images 
 ;30Wx30H;/30Wx30H/delphinium.jpg;$siteResource/30Wx30H/delphinium.jpg;;;images 
 ;30Wx30H;/30Wx30H/alstroemeria.jpg;$siteResource/30Wx30H/alstroemeria.jpg;;;images 
+;30Wx30H;/30Wx30H/aspen.jpg;$siteResource/30Wx30H/aspen.jpg;;;images
+;30Wx30H;/30Wx30H/carnation.jpg;$siteResource/30Wx30H/carnation.jpg;;;images
+;30Wx30H;/30Wx30H/cedar.jpg;$siteResource/30Wx30H/cedar.jpg;;;images
+;30Wx30H;/30Wx30H/dogwood.jpg;$siteResource/30Wx30H/dogwood.jpg;;;images
+;30Wx30H;/30Wx30H/elm.jpg;$siteResource/30Wx30H/elm.jpg;;;images
+;30Wx30H;/30Wx30H/fig.jpg;$siteResource/30Wx30H/fig.jpg;;;images
+;30Wx30H;/30Wx30H/gerbera.jpg;$siteResource/30Wx30H/gerbera.jpg;;;images
 # Create Media Containers 
 INSERT_UPDATE MediaContainer;qualifier[unique=true];$medias;$catalogVersion 
 ;0005_1.jpg;/1200Wx1200H/gardenfork.jpg,/515Wx515H/gardenfork.jpg,/300Wx300H/gardenfork.jpg,/96Wx96H/gardenfork.jpg,/65Wx65H/gardenfork.jpg,/30Wx30H/gardenfork.jpg 
 ;0201_1.jpg;/1200Wx1200H/baldcypress.jpg,/515Wx515H/baldcypress.jpg,/300Wx300H/baldcypress.jpg,/96Wx96H/baldcypress.jpg,/65Wx65H/baldcypress.jpg,/30Wx30H/baldcypress.jpg 
+;0200_1.jpg;/1200Wx1200H/aspen.jpg,/515Wx515H/aspen.jpg,/300Wx300H/aspen.jpg,/96Wx96H/aspen.jpg,/65Wx65H/aspen.jpg,/30Wx30H/aspen.jpg 
+;0004_1.jpg;/1200Wx1200H/dutchhoe.jpg,/515Wx515H/dutchhoe.jpg,/300Wx300H/dutchhoe.jpg,/96Wx96H/dutchhoe.jpg,/65Wx65H/dutchhoe.jpg,/30Wx30H/dutchhoe.jpg
 ;0007_1.jpg;/1200Wx1200H/gardenspade.jpg,/515Wx515H/gardenspade.jpg,/300Wx300H/gardenspade.jpg,/96Wx96H/gardenspade.jpg,/65Wx65H/gardenspade.jpg,/30Wx30H/gardenspade.jpg 
 ;0002_1.jpg;/1200Wx1200H/drawhoe.jpg,/515Wx515H/drawhoe.jpg,/300Wx300H/drawhoe.jpg,/96Wx96H/drawhoe.jpg,/65Wx65H/drawhoe.jpg,/30Wx30H/drawhoe.jpg 
 ;0001_1.jpg;/1200Wx1200H/cultivator.jpg,/515Wx515H/cultivator.jpg,/300Wx300H/cultivator.jpg,/96Wx96H/cultivator.jpg,/65Wx65H/cultivator.jpg,/30Wx30H/cultivator.jpg 
@@ -95,7 +139,14 @@ INSERT_UPDATE MediaContainer;qualifier[unique=true];$medias;$catalogVersion
 ;0006_1.jpg;/1200Wx1200H/gardenrake.jpg,/515Wx515H/gardenrake.jpg,/300Wx300H/gardenrake.jpg,/96Wx96H/gardenrake.jpg,/65Wx65H/gardenrake.jpg,/30Wx30H/gardenrake.jpg 
 ;0100_1.jpg;/1200Wx1200H/alstroemeria.jpg,/515Wx515H/alstroemeria.jpg,/300Wx300H/alstroemeria.jpg,/96Wx96H/alstroemeria.jpg,/65Wx65H/alstroemeria.jpg,/30Wx30H/alstroemeria.jpg 
 ;0110_1.jpg;/1200Wx1200H/delphinium.jpg,/515Wx515H/delphinium.jpg,/300Wx300H/delphinium.jpg,/96Wx96H/delphinium.jpg,/65Wx65H/delphinium.jpg,/30Wx30H/delphinium.jpg 
+;0111_1.jpg;/1200Wx1200H/gerbera.jpg,/515Wx515H/gerbera.jpg,/300Wx300H/gerbera.jpg,/96Wx96H/gerbera.jpg,/65Wx65H/gerbera.jpg,/30Wx30H/gerbera.jpg 
 ;0101_1.jpg;/1200Wx1200H/bupleurum.jpg,/515Wx515H/bupleurum.jpg,/300Wx300H/bupleurum.jpg,/96Wx96H/bupleurum.jpg,/65Wx65H/bupleurum.jpg,/30Wx30H/bupleurum.jpg 
+;0102_1.jpg;/1200Wx1200H/carnation.jpg,/515Wx515H/carnation.jpg,/300Wx300H/carnation.jpg,/96Wx96H/carnation.jpg,/65Wx65H/carnation.jpg,/30Wx30H/carnation.jpg 
+;0200_1.jpg;/1200Wx1200H/aspen.jpg,/515Wx515H/aspen.jpg,/300Wx300H/aspen.jpg,/96Wx96H/aspen.jpg,/65Wx65H/aspen.jpg,/30Wx30H/aspen.jpg 
+;0202_1.jpg;/1200Wx1200H/cedar.jpg,/515Wx515H/cedar.jpg,/300Wx300H/cedar.jpg,/96Wx96H/cedar.jpg,/65Wx65H/cedar.jpg,/30Wx30H/cedar.jpg 
+;0210_1.jpg;/1200Wx1200H/dogwood.jpg,/515Wx515H/dogwood.jpg,/300Wx300H/dogwood.jpg,/96Wx96H/dogwood.jpg,/65Wx65H/dogwood.jpg,/30Wx30H/dogwood.jpg 
+;0211_1.jpg;/1200Wx1200H/elm.jpg,/515Wx515H/elm.jpg,/300Wx300H/elm.jpg,/96Wx96H/elm.jpg,/65Wx65H/elm.jpg,/30Wx30H/elm.jpg 
+;0212_1.jpg;/1200Wx1200H/fig.jpg,/515Wx515H/fig.jpg,/300Wx300H/fig.jpg,/96Wx96H/fig.jpg,/65Wx65H/fig.jpg,/30Wx30H/fig.jpg 
 ;0112_1.jpg;/1200Wx1200H/hydrangea.jpg,/515Wx515H/hydrangea.jpg,/300Wx300H/hydrangea.jpg,/96Wx96H/hydrangea.jpg,/65Wx65H/hydrangea.jpg,/30Wx30H/hydrangea.jpg 
 # Update Products with Media and Media Containers 
 INSERT_UPDATE Product;code[unique=true];$catalogVersion;$galleryImages;$picture;$thumbnail 
@@ -108,14 +159,14 @@ INSERT_UPDATE Product;code[unique=true];$catalogVersion;$galleryImages;$picture;
 ;0006;;0006_1.jpg;/300Wx300H/gardenrake.jpg;/96Wx96H/gardenrake.jpg 
 ;0100;;0100_1.jpg;/300Wx300H/alstroemeria.jpg;/96Wx96H/alstroemeria.jpg 
 ;0101;;0101_1.jpg;/300Wx300H/bupleurum.jpg;/96Wx96H/bupleurum.jpg 
-;0102;;0100_1.jpg;/300Wx300H/alstroemeria.jpg;/96Wx96H/alstroemeria.jpg 
+;0102;;0102_1.jpg;/300Wx300H/carnation.jpg;/96Wx96H/carnation.jpg 
 ;0110;;0110_1.jpg;/300Wx300H/delphinium.jpg;/96Wx96H/delphinium.jpg 
-;0111;;0110_1.jpg;/300Wx300H/delphinium.jpg;/96Wx96H/delphinium.jpg 
+;0111;;0111_1.jpg;/300Wx300H/gerbera.jpg;/96Wx96H/gerbera.jpg 
 ;0112;;0112_1.jpg;/300Wx300H/hydrangea.jpg;/96Wx96H/hydrangea.jpg 
-;0200;;0200_1.jpg;/300Wx300H/bupleurum.jpg;/96Wx96H/bupleurum.jpg 
-;0201;;0200_1.jpg;/300Wx300H/bupleurum.jpg;/96Wx96H/bupleurum.jpg 
-;0202;;0200_1.jpg;/300Wx300H/bupleurum.jpg;/96Wx96H/bupleurum.jpg 
-;0210;;0210_1.jpg;/300Wx300H/hydrangea.jpg;/96Wx96H/hydrangea.jpg 
-;0211;;0210_1.jpg;/300Wx300H/hydrangea.jpg;/96Wx96H/hydrangea.jpg 
-;0212;;0210_1.jpg;/300Wx300H/hydrangea.jpg;/96Wx96H/hydrangea.jpg 
+;0200;;0200_1.jpg;/300Wx300H/aspen.jpg;/96Wx96H/aspen.jpg 
+;0201;;0201_1.jpg;/300Wx300H/baldcypress.jpg;/96Wx96H/baldcypress.jpg 
+;0202;;0202_1.jpg;/300Wx300H/cedar.jpg;/96Wx96H/cedar.jpg 
+;0210;;0210_1.jpg;/300Wx300H/dogwood.jpg;/96Wx96H/dogwood.jpg 
+;0211;;0211_1.jpg;/300Wx300H/elm.jpg;/96Wx96H/elm.jpg 
+;0212;;0212_1.jpg;/300Wx300H/fig.jpg;/96Wx96H/fig.jpg 
 
